@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap");
+body, html {
+  font-family: "Poppins", sans-serif;
+}
+
+.sqi-music-table {
+  /*   color variables */
+  /*   border radius */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+}
+.sqi-music-table table {
+  border-collapse: collapse;
+  background-color: white;
+  text-align: left;
+  margin: 50px 0;
+}
+.sqi-music-table table th {
+  padding: 0.75rem 2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  font-size: 0.7rem;
+  font-weight: 900;
+}
+.sqi-music-table table td {
+  padding: 1rem 2rem;
+}
+.sqi-music-table table tr:nth-child(even) {
+  background-color: #f3f8fe;
+}
+.sqi-music-table .del-btn {
+  border: none;
+  background: none;
+}
+
+.sqi-register .form-container {
+  max-width: 425px;
+  width: 100%;
+  margin: 50px auto;
+}
+.sqi-register .form-wrapper {
+  padding: 15px 25px;
+}
+
+.form-group {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+  right: 0;
+}
+
+.form-label {
+  margin-bottom: 4px;
+}
+
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #ddd;
+  outline: 0;
+  box-shadow: none;
+}
+
+.form-control-placeholder, .form-label {
+  font-size: 14px;
+}
+
+.btn-close {
+  background-size: 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

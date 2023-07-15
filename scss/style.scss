@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+body, html {
+  font-family: 'Poppins', sans-serif;
+}
+.sqi-music-table {
+  /*   color variables */
+  $clr-primary: #01d28e;
+  $clr-primary-light: #f3f8fe;
+  $clr-primary-dark: #a7bad3;
+  $clr-gray100: #f9fbff;
+  $clr-gray150: #f4f6fb;
+  $clr-gray200: #eef1f6;
+  $clr-gray300: #e1e5ee;
+  $clr-gray400: #767b91;
+  $clr-gray500: #4f546c;
+  $clr-gray600: #2a324b;
+  $clr-gray700: #161d34;
+
+  /*   border radius */
+  $radius: 0.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  table {
+    border-collapse: collapse;
+    background-color: white;
+    text-align: left;
+    margin: 50px 0;
+
+    th {
+      padding: 0.75rem 2rem;
+      text-transform: uppercase;
+      letter-spacing: 0.1rem;
+      font-size: 0.7rem;
+      font-weight: 900;
+    }
+
+    td {
+      padding: 1rem 2rem;
+    }
+
+    //   Color alternating rows
+    tr:nth-child(even) {
+      background-color: $clr-primary-light;
+    }
+  }
+  .del-btn {
+    border: none;
+    background: none;
+  }
+}
+.sqi-register {
+  .form-container {
+    max-width: 425px;
+    width: 100%;
+    margin: 50px auto;
+  }
+  .form-wrapper {
+    padding: 15px 25px;
+  }
+}
+
+//Overright css
+.form-group {
+  position: relative;
+  margin-bottom: 10px;
+}
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 2.375rem;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+  right: 0;
+}
+.form-label {
+  margin-bottom: 4px;
+}
+.form-control:focus {
+  color: #212529;
+  background-color: #fff;
+  border-color: #ddd;
+  outline: 0;
+  box-shadow: none;
+}
+.form-control-placeholder, .form-label {
+  font-size: 14px;
+}
+.btn-close {
+  background-size: 10px;
+}
+//Overright css
+
